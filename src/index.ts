@@ -1,5 +1,7 @@
-import { window } from 'vscode'
+import { ExtensionContext } from 'vscode'
 
-export function activate() {
-  window.showInformationMessage('Halo xxx')
+export function activate(context: ExtensionContext) {
+  // TODO
 }
+
+export function deactivate() { }
